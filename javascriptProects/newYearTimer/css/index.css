@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Roboto',serif;
+}
+body{
+    min-height:85vh;
+    min-width:100%;
+    background-image:url('../img/newyear.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.container{
+    margin:90px auto;
+    height:300px;
+    width:45%;
+    display:flex;
+    flex-direction:column;
+    
+}
+.head-container h1{
+    text-align:center;
+    text-transform:uppercase;
+    color:#fff;
+    font-size:5rem;
+}
+.head-container h1:hover{
+    color: #fff;
+  text-shadow:
+    0 0 20px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px rgb(195, 0, 255),
+    0 0 80px rgb(195, 0, 255),
+    0 0 90px rgb(195, 0, 255),
+    0 0 100px rgb(195, 0, 255),
+    0 0 150px rgb(195, 0, 255);
+}
+.countdown-container{
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+}
+.count{
+    color:#fff;
+    margin:0 40px;
+}
+.bigText{
+    font-size:4rem;
+    font-weight:bold;
+}
+.count span{
+    font-size:1.5rem;
+}
